@@ -1,0 +1,42 @@
+[
+    {
+        "id": "U001",
+        "ten": "Nguyễn Văn A",
+        "tuoi": 25,
+        "can_nang": 70.5,
+        "muc_tieu": "tăng cơ",
+        "quyen": "admin"
+    },
+    {
+        "id": "U002",
+        "ten": "Trần Thị B",
+        "tuoi": 30,
+        "can_nang": 55.0,
+        "muc_tieu": "giảm cân",
+        "quyen": "nhanvien"
+    },
+    {
+        "id": "U003",
+        "ten": "Lê Văn C",
+        "tuoi": 28,
+        "can_nang": 65.0,
+        "muc_tieu": "ăn chay",
+        "quyen": "khach"
+    },
+    {
+        "id": "U004",
+        "ten": "Phạm Thị D",
+        "tuoi": 35,
+        "can_nang": 60.0,
+        "muc_tieu": "tăng cơ",
+        "quyen": "khach"
+    },
+    {
+        "id": "U005",
+        "ten": "Hoàng Văn E",
+        "tuoi": 22,
+        "can_nang": 75.0,
+        "muc_tieu": "giảm cân",
+        "quyen": "nhanvien"
+    }
+] 

@@ -1,0 +1,108 @@
+[
+    {
+        "id": "HD001",
+        "user_id": "U001",
+        "items": [
+            {
+                "id": "M001",
+                "ten": "Phở bò",
+                "so_luong": 2,
+                "gia": 45000
+            },
+            {
+                "id": "M006",
+                "ten": "Cà phê sữa đá",
+                "so_luong": 1,
+                "gia": 20000
+            }
+        ],
+        "tong_tien": 110000,
+        "ngay": "2024-01-15"
+    },
+    {
+        "id": "HD002",
+        "user_id": "U002",
+        "items": [
+            {
+                "id": "M004",
+                "ten": "Gỏi cuốn",
+                "so_luong": 1,
+                "gia": 25000
+            },
+            {
+                "id": "M005",
+                "ten": "Chè ba màu",
+                "so_luong": 1,
+                "gia": 15000
+            }
+        ],
+        "tong_tien": 40000,
+        "ngay": "2024-01-16"
+    },
+    {
+        "id": "HD003",
+        "user_id": "U003",
+        "items": [
+            {
+                "id": "M002",
+                "ten": "Cơm tấm sườn",
+                "so_luong": 1,
+                "gia": 35000
+            },
+            {
+                "id": "M008",
+                "ten": "Canh chua cá",
+                "so_luong": 1,
+                "gia": 30000
+            }
+        ],
+        "tong_tien": 65000,
+        "ngay": "2024-01-17"
+    },
+    {
+        "id": "HD004",
+        "user_id": "U004",
+        "items": [
+            {
+                "id": "M003",
+                "ten": "Bún chả",
+                "so_luong": 2,
+                "gia": 40000
+            },
+            {
+                "id": "M007",
+                "ten": "Bánh mì thịt",
+                "so_luong": 1,
+                "gia": 25000
+            }
+        ],
+        "tong_tien": 105000,
+        "ngay": "2024-01-18"
+    },
+    {
+        "id": "HD005",
+        "user_id": "U005",
+        "items": [
+            {
+                "id": "M001",
+                "ten": "Phở bò",
+                "so_luong": 1,
+                "gia": 45000
+            },
+            {
+                "id": "M004",
+                "ten": "Gỏi cuốn",
+                "so_luong": 1,
+                "gia": 25000
+            },
+            {
+                "id": "M006",
+                "ten": "Cà phê sữa đá",
+                "so_luong": 1,
+                "gia": 20000
+            }
+        ],
+        "tong_tien": 90000,
+        "ngay": "2024-01-19"
+    }
+] 

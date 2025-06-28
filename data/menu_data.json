@@ -1,0 +1,172 @@
+[
+    {
+        "id": "M001",
+        "ten": "Phở bòa",
+        "loai": "Món Chính",
+        "gia": 50000.0,
+        "calo": 200.0,
+        "che_do_an": [
+            "ăn đạm",
+            "tăng cơ"
+        ],
+        "nguyen_lieu": [
+            "bánh phở",
+            "thịt bò",
+            "nước dùng",
+            "rau thơm"
+        ],
+        "mo_ta": "Phở bò truyền thống với nước dùng đậm đà"
+    },
+    {
+        "id": "M002",
+        "ten": "Cơm tấm sườn",
+        "loai": "món chính",
+        "gia": 35000,
+        "calo": 420,
+        "che_do_an": [
+            "tăng cơ"
+        ],
+        "nguyen_lieu": [
+            "gạo tấm",
+            "sườn heo",
+            "nước mắm",
+            "dưa leo"
+        ],
+        "mo_ta": "Cơm tấm sườn nướng thơm ngon"
+    },
+    {
+        "id": "M003",
+        "ten": "Bún chả",
+        "loai": "món chính",
+        "gia": 40000,
+        "calo": 380,
+        "che_do_an": [
+            "tăng cơ"
+        ],
+        "nguyen_lieu": [
+            "bún",
+            "thịt nướng",
+            "nước mắm",
+            "rau sống"
+        ],
+        "mo_ta": "Bún chả Hà Nội với thịt nướng thơm"
+    },
+    {
+        "id": "M004",
+        "ten": "Gỏi cuốn",
+        "loai": "món phụ",
+        "gia": 25000,
+        "calo": 120,
+        "che_do_an": [
+            "ăn chay",
+            "giảm cân"
+        ],
+        "nguyen_lieu": [
+            "bánh tráng",
+            "rau sống",
+            "tôm",
+            "nước mắm"
+        ],
+        "mo_ta": "Gỏi cuốn tươi ngon với rau sống"
+    },
+    {
+        "id": "M005",
+        "ten": "Chè ba màu",
+        "loai": "tráng miệng",
+        "gia": 15000,
+        "calo": 180,
+        "che_do_an": [
+            "ăn chay"
+        ],
+        "nguyen_lieu": [
+            "đậu xanh",
+            "đậu đỏ",
+            "bột báng",
+            "nước cốt dừa"
+        ],
+        "mo_ta": "Chè ba màu truyền thống"
+    },
+    {
+        "id": "M006",
+        "ten": "Cà phê sữa đá",
+        "loai": "nước uống",
+        "gia": 20000,
+        "calo": 80,
+        "che_do_an": [
+            "ăn chay"
+        ],
+        "nguyen_lieu": [
+            "cà phê",
+            "sữa đặc",
+            "đá"
+        ],
+        "mo_ta": "Cà phê sữa đá Việt Nam"
+    },
+    {
+        "id": "M007",
+        "ten": "Bánh mì thịt",
+        "loai": "món chính",
+        "gia": 25000,
+        "calo": 280,
+        "che_do_an": [
+            "tăng cơ"
+        ],
+        "nguyen_lieu": [
+            "bánh mì",
+            "thịt nguội",
+            "rau sống",
+            "sốt mayonnaise"
+        ],
+        "mo_ta": "Bánh mì thịt nguội truyền thống"
+    },
+    {
+        "id": "M008",
+        "ten": "Canh chua cá",
+        "loai": "món phụ",
+        "gia": 30000,
+        "calo": 150,
+        "che_do_an": [
+            "ăn chay",
+            "giảm cân"
+        ],
+        "nguyen_lieu": [
+            "cá lóc",
+            "dứa",
+            "cà chua",
+            "rau ngổ"
+        ],
+        "mo_ta": "Canh chua cá lóc chua ngọt"
+    },
+    {
+        "id": "00001",
+        "ten": "gà rang riềng",
+        "loai": "chính",
+        "gia": 120000.0,
+        "calo": 120.0,
+        "che_do_an": [
+            "tăng cơ"
+        ],
+        "nguyen_lieu": [
+            "gà",
+            "gừng"
+        ],
+        "mo_ta": "gà rang gừng thơm ngon "
+    },
+    {
+        "id": "M009",
+        "ten": "cơm rang dưa hành",
+        "loai": "món chính",
+        "gia": 55000.0,
+        "calo": 300.0,
+        "che_do_an": [
+            "ăn đạm",
+            "tăng cơ"
+        ],
+        "nguyen_lieu": [
+            "cơm",
+            "bò",
+            "rau muối"
+        ],
+        "mo_ta": "cơm ngon canh ngọ"
+    }
+]
