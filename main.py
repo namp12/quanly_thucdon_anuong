@@ -89,22 +89,22 @@ def system_info():
 def main_menu():
     while True:
         print("\n" + "="*50)
-        print("🍽️  HỆ THỐNG QUẢN LÝ THỰC ĐƠN ĂN UỐNG 🍽️")
+        print("HỆ THỐNG QUẢN LÝ THỰC ĐƠN ĂN UỐNG")
         print("="*50)
-        print("1. 📋 Quản lý món ăn")
-        print("2. 🛒 Quản lý hóa đơn/giỏ hàng")
-        print("3. 📊 Thống kê & báo cáo")
-        print("4. 📅 Lập kế hoạch thực đơn")
-        print("5. 👥 Quản lý người dùng")
-        print("6. 📤 Xuất báo cáo")
-        print("7. 💾 Sao lưu dữ liệu")
-        print("8. 🔄 Khôi phục dữ liệu")
-        print("9. ℹ️  Thông tin hệ thống")
-        print("0. 🚪 Thoát")
+        print("1. Quản lý món ăn")
+        print("2. Quản lý hóa đơn/giỏ hàng")
+        print("3. Thống kê & báo cáo")
+        print("4. Lập kế hoạch thực đơn")
+        print("5. Quản lý người dùng")
+        print("6. Xuất báo cáo")
+        print("7. Sao lưu dữ liệu")
+        print("8. Khôi phục dữ liệu")
+        print("9. Thông tin hệ thống")
+        print("0. Thoát")
         print("-"*50)
         
         try:
-            chon = input("🎯 Chọn chức năng: ")
+            chon = input(" Chọn chức năng: ")
             if chon == "1":
                 menu.menu_cli()
             elif chon == "2":
@@ -124,21 +124,21 @@ def main_menu():
             elif chon == "9":
                 system_info()
             elif chon == "0":
-                print("👋 Tạm biệt! Hẹn gặp lại!")
+                print(" Tạm biệt! Hẹn gặp lại!")
                 break
             else:
                 print("❌ Lựa chọn không hợp lệ!")
         except KeyboardInterrupt:
-            print("\n👋 Tạm biệt! Hẹn gặp lại!")
+            print("\n Tạm biệt! Hẹn gặp lại!")
             break
         except Exception as e:
-            print(f"❌ Lỗi: {e}")
+            print(f" Lỗi: {e}")
 
 if __name__ == "__main__":
     # Tạo thư mục data nếu chưa có
     if not os.path.exists("data"):
         os.makedirs("data")
-        print("📁 Đã tạo thư mục data")
+        print(" Đã tạo thư mục data")
     
     # Kiểm tra các file dữ liệu cần thiết
     required_files = ["menu_data.json", "user_data.json", "hoadon_data.json", 
@@ -150,7 +150,7 @@ if __name__ == "__main__":
             missing_files.append(file)
     
     if missing_files:
-        print(f"⚠️  Thiếu các file dữ liệu: {', '.join(missing_files)}")
-        print("📝 Vui lòng tạo các file này hoặc chạy lại chương trình")
+        print(f"  Thiếu các file dữ liệu: {', '.join(missing_files)}")
+        print(" Vui lòng tạo các file này hoặc chạy lại chương trình")
     
     main_menu() 
