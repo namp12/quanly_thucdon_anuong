@@ -168,5 +168,21 @@
             "rau muối"
         ],
         "mo_ta": "cơm ngon canh ngọ"
+    },
+    {
+        "id": "M1",
+        "ten": "Phương nam",
+        "loai": "Nước",
+        "gia": 1000.0,
+        "calo": 10.0,
+        "che_do_an": [
+            "ăn kiêng",
+            "ăn tăng cơ"
+        ],
+        "nguyen_lieu": [
+            "nước",
+            "chanh"
+        ],
+        "mo_ta": "ăn rất ngon"
     }
 ]
