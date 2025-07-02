@@ -170,6 +170,7 @@
         "mo_ta": "cơm ngon canh ngọ"
     },
     {
+<<<<<<< HEAD
         "id": "M1",
         "ten": "Phương nam",
         "loai": "Nước",
@@ -184,5 +185,22 @@
             "chanh"
         ],
         "mo_ta": "ăn rất ngon"
+=======
+        "id": "M1010101",
+        "ten": "Trần Huy Dũng",
+        "loai": "Phụ",
+        "gia": 3000000.0,
+        "calo": 50.0,
+        "che_do_an": [
+            "ăn tăng cơ"
+        ],
+        "nguyen_lieu": [
+            "thịt",
+            "mỡ",
+            "cơ",
+            "tóc"
+        ],
+        "mo_ta": "Chất liệu thịt người"
+>>>>>>> 49eb0c85e298719fbbbdce0d92074cc905946ba6
     }
 ]

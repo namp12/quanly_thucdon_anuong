@@ -1,3 +1,5 @@
+#!
+#* Xuất Excel, PDF, Email
 import os
 import json
 from modules.bill import load_hoadon

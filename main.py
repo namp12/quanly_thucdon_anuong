@@ -127,7 +127,7 @@ def main_menu():
                 print(" Tạm biệt! Hẹn gặp lại!")
                 break
             else:
-                print("❌ Lựa chọn không hợp lệ!")
+                print(" Lựa chọn không hợp lệ!")
         except KeyboardInterrupt:
             print("\n Tạm biệt! Hẹn gặp lại!")
             break
