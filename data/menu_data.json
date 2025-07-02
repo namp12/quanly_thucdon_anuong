@@ -168,5 +168,22 @@
             "rau muối"
         ],
         "mo_ta": "cơm ngon canh ngọ"
+    },
+    {
+        "id": "M1010101",
+        "ten": "Trần Huy Dũng",
+        "loai": "Phụ",
+        "gia": 3000000.0,
+        "calo": 50.0,
+        "che_do_an": [
+            "ăn tăng cơ"
+        ],
+        "nguyen_lieu": [
+            "thịt",
+            "mỡ",
+            "cơ",
+            "tóc"
+        ],
+        "mo_ta": "Chất liệu thịt người"
     }
 ]

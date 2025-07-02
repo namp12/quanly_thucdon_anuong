@@ -1,3 +1,5 @@
+#!
+#* Lập kế hoạch thực đơn
 import json
 import os
 from datetime import datetime

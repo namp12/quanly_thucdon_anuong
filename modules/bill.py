@@ -1,11 +1,15 @@
-import json
-import os
-from datetime import datetime
+#!
+#* Quản lý hóa đơn
+import json #* chuyển đổi dữ kiệu sang json và ngược lại
+import os  #* cung cấp các hàm để tt với hệ điều hành, thao tác với file
+from datetime import datetime  #* thao tác liên quan đến ngày giờ
 from modules.menu import load_menu
 
 DATA_FILE = "data/hoadon_data.json"
 
+#* lớp hóa đơn đại diện cho một hóa đơn
 class HoaDon:
+    #* __innit__ là hàm khởi tạo (constructer)
     def __init__(self, id, user_id, items, tong_tien, ngay):
         self.id = id
         self.user_id = user_id
@@ -13,7 +17,7 @@ class HoaDon:
         self.tong_tien = tong_tien
         self.ngay = ngay
 
-    def to_dict(self):
+    def to_dict(self):   #* chuyển từ obj thành dict
         return self.__dict__
 
     @staticmethod
@@ -21,7 +25,7 @@ class HoaDon:
         return HoaDon(d['id'], d['user_id'], d['items'], d['tong_tien'], d['ngay'])
 
 def load_hoadon():
-    if os.path.exists(DATA_FILE):
+    if os.path.exists(DATA_FILE):      #*kiểm tra file có tồn tại hay không, để tránh trùng lắp
         with open(DATA_FILE, 'r', encoding='utf-8') as f:
             data = json.load(f)
             return [HoaDon.from_dict(item) for item in data]
@@ -33,10 +37,10 @@ def save_hoadon(hoadon_list):
 
 def tao_hoadon():
     menu_list = load_menu()
-    items = []
-    tong_tien = 0
-    while True:
-        id_mon = input("Nhập ID món (0 để kết thúc): ")
+    items = []                  #* tạo một mảng rỗng để lưu thông tin món ăn
+    tong_tien = 0               
+    while True:                 #* tạo vòng while để cho phép người dùng nhập nhiều món ăn
+        id_mon = input("Nhập ID món (0 để kết thúc): ")     #* nếu người dùng nhập 0 thì sẽ kêt thúc
         if id_mon == "0":
             break
         so_luong = int(input("Số lượng: "))
